@@ -1,6 +1,6 @@
 .button {
-    background: #bd8af1;
-    color: #220a39;
+    background: #ff7f41;
+    color: #60270b;
     font-weight: 600;
     width: 91px;
     display: inline-block;
@@ -18,7 +18,11 @@
 }
 
 .change-up-highlight {
-    background-color: #0a220a;
+    background-color: #124012;
     padding: 0.3rem;
     border-radius: 0.2rem;
+}
+
+.botton-row {
+    margin-top: 30px
 }
