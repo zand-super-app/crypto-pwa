@@ -1,0 +1,13 @@
+<div id="container">
+  <app-balance />
+  <div *ngFor="let myCoin of MyCoins">
+    <app-list-item
+      icon="{{ myCoin.icon }}"
+      title="{{ myCoin.title }}"
+      quantity="{{ myCoin.quantity }}"
+      currencyValue="{{ myCoin.currencyValue }}"
+      change="{{ myCoin.change }}"
+      changeType="{{ myCoin.changeType }}"
+    />
+  </div>
+</div>

@@ -1,0 +1,33 @@
+<ion-row>
+  <ion-col>
+    <ion-card class="list-item">
+      <ion-item>
+        <ion-avatar slot="start">
+          <img alt="Silhouette of a person's head" [src]="icon" />
+        </ion-avatar>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <ion-row>
+                <ion-label>{{ title }}</ion-label>
+              </ion-row>
+              <ion-row>
+                <ion-label class="sub-title">{{ quantity }}</ion-label>
+              </ion-row>
+            </ion-col>
+            <ion-col class="ion-float-right">
+              <div class="ion-float-right">
+                <ion-row>
+                  <ion-label>{{ currencyValue }}</ion-label>
+                </ion-row>
+                <ion-row class="ion-float-right">
+                  <ion-label class="sub-title">{{ change }}</ion-label>
+                </ion-row>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-card>
+  </ion-col>
+</ion-row>

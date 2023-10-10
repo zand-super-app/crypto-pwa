@@ -1,0 +1,8 @@
+{
+  "name": "Phantom",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "1dce7cf4"
+}
